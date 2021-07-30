@@ -15,9 +15,9 @@
 
 - Implementation of Dependency Injection and Inversion of Control
 
-  - Dependency Injection implemented using `inversify` and `inversify-react`
+  - Dependency Injection implemented using `inversify`, `inversify-react` and `reflect-metadata`
   - Dependency Injection initialised upon request
-  - `reflect-metadata` is also used to identify annotations and reflect respective metadata
+  - Dependency Injection can be used via `react-hooks` in a functional component or can beget via the `container.get` method providwd by `inversify`
 
 - Implementation of Observer Pattern
   - Simple observer pattern with strongly-typed implementation
